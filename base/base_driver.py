@@ -19,3 +19,5 @@ class BaseDriver():
     def wait_until_element_is_clickable(self, locator_type, locator):
         ele=self.wait.until(EC.element_to_be_clickable((locator_type, locator)))
         return ele
+
+#sample line for github sdet1
