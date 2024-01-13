@@ -21,3 +21,6 @@ class BaseDriver():
         return ele
 
 #sample line for github sdet1
+
+    def merge_test(self):
+        print("")
